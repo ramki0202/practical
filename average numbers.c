@@ -1,12 +1,19 @@
 #include<stdio.h>
 int main()
 {
- float a,b,c,d,e,f,g,h;
- printf("enter the Value of n:");
- scanf("%f %f %f %f %f %f",&a,&b,&c,&d,&e,&f);
- g=(a+b+c+d+e+f)/6;
- h=(a+b+c+d+e+f);
- printf("\nAverage Value:%.2f",g);
- printf("\nTotal Value:%.1f",h);
- return 0;
+    float n;
+    int i=1;
+    float sum=0;
+    float a;
+    printf("How Many numbers you enter:");
+    scanf("%f",&n);
+    printf("Enter your number");
+    for(i=1;i<=n;i++)
+    {
+    scanf("%f",&a);
+    sum+=a;
     }
+    printf("\nYour average and addtion  is%f %f:",sum ,sum/n );
+
+
+}
