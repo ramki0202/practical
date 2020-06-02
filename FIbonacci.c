@@ -1,16 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int a,i=1,sum=1;;
-
-    printf("Enter Your Fibanoci:");
-    scanf("%d",&a);
-    for(i=1;i<=a;i++)
-    {
-        sum*=i;
-
-    }
-    printf("\nYour Fibanoci Number:%d",sum);
+   int n,t1=0,t2=1,sum=0;i=1;
+   printf("Enter your increment number");
+   scanf("%d",&n);
+   for(i=1;i<=n;i++)
+   {
+       printf("Fibanacci Number:%d",t1);
+       sum=t1+t2;
+       t1=t2;
+       t2=sum;
+   }
 }
-
-
