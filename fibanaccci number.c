@@ -7,7 +7,7 @@ int main()
    printf("Fibonacci Number is:");
    for(i=1;i<=n;i++)
    {
-       printf(" %d,", t1);
+       printf(" %d", t1);
        sum=t1+t2;
        t1=t2;
        t2=sum;
