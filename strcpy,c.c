@@ -16,7 +16,7 @@ int main()
     //name2=str
       strcpy(str,name);
       strcpy(name,name2);
-      strcpy(name2,str);
+        strcpy(name2,str);
     printf("first Name:%s",name);
     printf("\nsecound Name:%s",name2);
 
