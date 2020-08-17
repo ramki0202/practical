@@ -14,16 +14,6 @@ int main()
 
     printf("\n%d",sum);
 
-    for(i=0;i<5;i++)
-    {
-        sum=1;
-        sum+=b[i];
-
-    }
-     printf("\n%u %d",*(b+i), b+i);
-    for(i=0;i<5;i++){
-    printf("\n%u %d",*(b+i), b+i);
-    }
 
 
 }
