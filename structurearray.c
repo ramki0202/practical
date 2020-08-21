@@ -8,7 +8,7 @@ int main()
     char name[20];
     int mark;
     };struct student s[2];
-    int i,j;
+    int i;
 
     for(i=1;i<=2;i++){
         printf("\nEnter student %d Details:",i);
@@ -21,8 +21,9 @@ int main()
 
         printf("\nEnter Mark:");
         scanf("%d",&s[i].mark);
-          printf("ROll Number\t Name\t Mark");
-         printf("\n%d\t\t %s\t %d",s[i].rollno,s[i].name,s[i].mark);
+
+        printf("ROll Number\t Name\t Mark");
+        printf("\n%d\t\t %s\t %d",s[i].rollno,s[i].name,s[i].mark);
         }
 
     printf("ROll Number\t Name\t Mark");
